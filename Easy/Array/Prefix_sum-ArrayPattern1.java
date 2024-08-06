@@ -21,6 +21,10 @@ class PrefixSum {
     }
 
     public static Integer ltor(int l, int  r, Integer[] sum) {
+        if (l == 0) {
+            return sum[r];
+        }
+
         Integer total = sum[r] - sum[l-1];
         return total;
     }
