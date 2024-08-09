@@ -20,6 +20,8 @@ class PrefixSum {
         }
     }
 
+    // calculate sum from index l to index r 
+    // with prefix sum array in quick time
     public static Integer ltor(int l, int  r, Integer[] sum) {
         if (l == 0) {
             return sum[r];

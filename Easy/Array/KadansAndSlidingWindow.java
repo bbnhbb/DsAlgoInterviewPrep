@@ -1,3 +1,10 @@
+// In Kadans algo give an array that contains negative and positive no's 
+// we have the find the heightes sum 
+// {4, -1, -3, 5,6, -4, 7, -9}
+// {5,6, -4, 7,} produces the heightes sum 
+// Kandans method here will return the heightes sum by Kadanas algo
+// slidingWindow method here will return the l and r indices by sliding window algo 
+
 import java.util.Arrays;
 
 public class Kadane {
